@@ -50,7 +50,7 @@ const Cart = () => {
 
           <button
             onClick={() => dispatch(resetCart())}
-            className="py-2 px-10 bg-red-500 text-white font-semibold uppercase mb-4 hover:bg-red-700 duration-300"
+            className="py-2 px-10 bg-black text-white font-semibold uppercase mb-4 hover:opacity-90 duration-300 rounded-lg active:scale-110"
           >
             Reset cart
           </button>
